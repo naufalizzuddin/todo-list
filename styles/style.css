@@ -1,0 +1,108 @@
+/** @format */
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(143, 233, 249);
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 212, 246);
+  margin: 0;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.input-group {
+  margin-bottom: 30px;
+}
+.input-group input {
+  width: 500px;
+  height: 30px;
+  border: 1px solid rgb(2, 0, 90);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgb(2, 0, 90);
+  color: white;
+  font-weight: 900;
+  background-color: rgb(2, 0, 90);
+}
+
+table {
+  border: 0.5px solid black;
+  width: 700px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+th {
+  font-size: 20px;
+  text-align: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+th:nth-child(4) {
+  text-align: center;
+}
+
+tr.border-bottom td {
+  border-bottom: 1pt dashed black;
+}
+
+tbody {
+  padding: 3px;
+  font-size: 15px;
+}
+
+td {
+  padding: 5px;
+}
+
+.container-action {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.task-table {
+  width: 40%;
+}
+
+.btn-done {
+  background-color: rgb(34, 183, 34);
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.btn-remove {
+  background-color: rgb(196, 45, 45);
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
