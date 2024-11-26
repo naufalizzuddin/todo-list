@@ -1,1 +1,1 @@
-<h2>To Do List PHP dan MySQL</h2>
+<h2>To Do List PHP MySQL</h2>
